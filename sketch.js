@@ -1,6 +1,8 @@
 function setup(){
   createCanvas(windowWidth, windowHeight)
   background('white')
+  fill('black')
+	rect(width/2 - 250, height/2-300,500, 600)
 
 }
 
@@ -23,6 +25,17 @@ vertex(770, 300);
 vertex(680, 320);
 endShape(CLOSE);
 stroke('black')
+textSize(14)
+fill('#FFA3C4')
+text("BLACKPINK", width/2 - 40, height/2 -240)
+textSize(16)
+textFont('HELVETICA')
+textStyle(BOLD)
+text('2018.06.15', width/2 - 40, height/2 +190)
+text('1ST MINI ALBUM', width/2- 67, height/2 + 205)
+textSize(36)
+fill("gray")
+text('SQUARE UP', width/2-103, height/2 - 190)
 
 fill('black')
 line(590, 233, 680, 226.6)
